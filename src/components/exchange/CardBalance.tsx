@@ -40,7 +40,7 @@ const CardBalance: FC = () => {
               </defs>
               {/* Sondar Text */}
               <text x="35" y="25" fontFamily="Arial, Helvetica, sans-serif" fontSize="20" fill="hsl(var(--foreground))" fontWeight="bold">
-                Sondar
+                Dhuux Card
               </text>
             </svg>
           </div>
@@ -70,7 +70,7 @@ const CardBalance: FC = () => {
           </div>
           <div className="text-left">
             <p className="text-[10px] uppercase opacity-80">Card Holder</p>
-            <p className="text-sm font-medium">Jane Doe</p>
+            <p className="text-sm font-medium">Daarin Mohamed</p>
           </div>
           <div className="flex items-center">
             <CreditCard className="h-8 w-8 text-white" />
