@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({ // Using Geist Mono
 });
 
 export const metadata: Metadata = {
-  title: 'KeyFind - Stream Premium Content', // Updated title
+  title: 'Dhuux', // Updated title
   description: 'Watch premium videos and read exclusive articles', // Updated description
 };
 
