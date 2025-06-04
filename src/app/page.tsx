@@ -44,7 +44,7 @@ function HomePageContent() {
   const [isVerifyingPayment, setIsVerifyingPayment] = useState(false);
   const [userDocLoading, setUserDocLoading] = useState(true);
   
-  const paymentBackendUrl = process.env.NEXT_PUBLIC_PAYMENT_BACKEND_URL || 'http://localhost:5000';
+  const paymentBackendUrl = process.env.NEXT_PUBLIC_PAYMENT_BACKEND_URL || 'https://backend-aroy.onrender.com';
 
   useEffect(() => {
     console.log(`[HomePageContent Effect] Auth State Change. AuthLoading: ${authLoading}, User: ${!!user}, UserProfileLoading: ${isUserProfileLoading}`);
@@ -238,7 +238,7 @@ function HomePageContent() {
           <>
             <Card className="mb-4 bg-card border-border shadow-lg">
               <CardHeader className="px-4 py-3">
-                <CardTitle className="text-lg text-primary">Your MINTI Wallet</CardTitle>
+                <CardTitle className="text-lg text-primary">Dhuux</CardTitle>
               </CardHeader>
               <CardContent className="px-4 py-2">
                 <p className="text-2xl font-semibold text-foreground">
